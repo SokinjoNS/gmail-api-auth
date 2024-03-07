@@ -14,7 +14,7 @@ Ensure you have Python 3.6 or later installed on your system. This module is par
 
 ## Setup
 
-Before using the gmail_api_auth module, you need to create a project in the Google Developer Console, enable the Gmail API, and obtain your credentials.json file. Follow these steps:
+Before using the `gmail_api_auth` module, you need to create a project in the Google Developer Console, enable the Gmail API, and obtain your credentials.json file. Follow these steps:
 
 Visit the Google Developer Console.
 Create a new project.
