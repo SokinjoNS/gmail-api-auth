@@ -3,7 +3,7 @@ from google.auth.transport.requests import Request
 import pickle
 import os.path
 
-# If modifying these SCOPES, delete the file token.pickle.
+# If modifying these SCOPES, don't forget to delete the file token.pickle.
 SCOPES = ['https://www.googleapis.com/auth/gmail.readonly']
 
 def authenticate_gmail_api():
