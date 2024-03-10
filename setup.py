@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="gmail-api-auth",
-    version="0.1.0",
+    version="0.1.1",
     author="SokinjoNS",
     author_email="sokinjo.155@gmail.com",
     description="A module for authenticating Gmail API access.",
