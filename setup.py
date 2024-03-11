@@ -8,13 +8,16 @@ setup(
     description="A module for authenticating Gmail API access.",
     long_description=open('README.md').read(),
     url="https://github.com/SokinjoNS/gmail-api-auth",
-    project_urls":{"Source":"https://github.com/SokinjoNS/gmail-api-auth"},
     packages=find_packages(),
     install_requires=[
         'google-auth',
         'google-auth-oauthlib',
         'google-auth-httplib2',
     ],
+    project_urls={
+        "GitHub": "https://github.com/SokinjoNS/gmail-api-auth",
+        "Source": "https://github.com/SokinjoNS/gmail-api-auth"
+    },
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',
